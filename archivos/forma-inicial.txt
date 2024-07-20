@@ -1,0 +1,25 @@
+Prestamo-a-empleado(
+	num_documento
+	nombre
+	direccion
+	telefono 
+	correo
+	Prestamo(
+		tipo_de_prestamo
+		monto_prestamo
+		moneda
+		tasa_de_interes
+		numero_de_cuotas
+		monto_con_interes
+		precio_cuotas_mensuales
+		estado_prestamo 
+		fec_otorgacion
+		fec_finalizacion
+		cuotas(
+			n_cuota
+			precio
+			fec_emicion
+			fec_vencimiento
+			fec_pago
+		)
+)
